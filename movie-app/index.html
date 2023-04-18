@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Movie Ratings</title>
+</head>
+<body>
+    <h1>Rate Movies</h1>
+    <form action="">
+        <Label for="movie">Movie Title</Label>
+        <input type="text" name="movie" id="movie">
+
+        <label for="rating">Rating</label>
+        <input type="number" name="rating" id="rating" min="1" max="10">
+        <button type="submit" id="sub-btn">Submit</button>
+    </form>
+
+    <table id="movie-container">
+        <thead>
+            <td>Movie</td>
+            <td>Rating (out of 10)</td>
+        </thead>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
